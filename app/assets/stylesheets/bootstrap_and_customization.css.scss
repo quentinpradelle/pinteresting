@@ -1,6 +1,21 @@
-$body-bg: #ecf0f1;
-$navbar-inverse-bg: #1abc9c;
-$navbar-inverse-link-color: white;
-$jumbotron-bg: #bdc3c7;
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: 								#ecf0f1;
+$font-family-sans-serif: 				'Lato';
+$navbar-inverse-brand-hover-color:		 #f1c40f;
+$navbar-inverse-bg: 					#1abc9c;
+$navbar-inverse-link-color: 			white;
+$navbar-inverse-brand-color: 			#c0392b;
+$jumbotron-bg: 							#bdc3c7;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-family: 'Kaushan Script'
+}
