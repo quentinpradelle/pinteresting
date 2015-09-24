@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
 gem 'font_assets', '~> 0.1.11'
+gem 'paperclip', '~> 4.3'
 
 
 
